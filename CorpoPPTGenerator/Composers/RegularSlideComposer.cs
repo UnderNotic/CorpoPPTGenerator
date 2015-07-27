@@ -1,6 +1,5 @@
 ﻿using System;
 using CorpoPPTGenerator.Providers;
-using Spire.Presentation;
 
 namespace CorpoPPTGenerator.Composers
 {
