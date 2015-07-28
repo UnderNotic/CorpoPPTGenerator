@@ -23,7 +23,7 @@ namespace CorpoPPTGenerator
 
 
          
-            GetAsync();
+            StartAsync();
 
 
 
@@ -31,11 +31,8 @@ namespace CorpoPPTGenerator
         }
 
 
-        public async static void GetAsync()
+        public async static void StartAsync()
         {
-            var x = _container.Resolve<IFamousQuotesProvider>();
-            var res = await x.GetQuoteAsync();
-            Console.WriteLine(res.Author + res.Quote);
         }
 
 
