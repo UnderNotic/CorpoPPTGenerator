@@ -19,13 +19,10 @@ namespace CorpoPPTGenerator
             containerBuilder.RegisterType<RegularSlideComposer>().As<IRegularSlideComposer>();
             containerBuilder.RegisterType<UniRestClient>();
             containerBuilder.RegisterType<FamousQuotesProvider>().As<IFamousQuotesProvider>();
+            containerBuilder.RegisterType<PresentationGenerator>().As<IStartable>();
             _container = containerBuilder.Build();
 
-
-         
             StartAsync();
-
-
 
             Console.Read();
         }

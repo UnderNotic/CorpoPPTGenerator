@@ -87,6 +87,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="PresentationGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\CorpoSentencesProvider.cs" />
     <Compile Include="Providers\FamousQuotesProvider.cs" />
